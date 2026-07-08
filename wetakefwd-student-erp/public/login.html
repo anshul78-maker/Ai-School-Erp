@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in — WeTakeFwd Student</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="login-hero">
+      <div class="logo">
+        <div class="logo-mark"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+        <div><b>WE TAKE FWD</b><small>STUDENT APP</small></div>
+      </div>
+      <h1>Learn smarter,<br>grow faster.</h1>
+      <p>Your personal dashboard — see your progress, get an AI study buddy, and know exactly what to study next.</p>
+      <div class="login-pts">
+        <div><span class="d"></span> Track every subject, topic by topic</div>
+        <div><span class="d"></span> A study plan built just for you</div>
+        <div><span class="d"></span> Ask your AI study buddy anything</div>
+      </div>
+    </div>
+    <div class="login-body">
+      <h2>Welcome back</h2>
+      <p class="sub">Sign in to see your dashboard.</p>
+      <div class="err" id="err"></div>
+      <div class="field">
+        <label for="u">Username</label>
+        <input id="u" autocomplete="username" placeholder="priya">
+      </div>
+      <div class="field">
+        <label for="p">Password</label>
+        <input id="p" type="password" autocomplete="current-password" placeholder="••••••••">
+      </div>
+      <button class="btn-p full" id="signin">Sign in</button>
+      <p class="hint">Demo account — username <code>priya</code>, password <code>priya123</code></p>
+    </div>
+  </div>
+</div>
+<script src="/js/api.js"></script>
+<script src="/js/login.js"></script>
+</body>
+</html>

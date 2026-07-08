@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WeTakeFwd — Student Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="logo-mark"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+      <div><b>WE TAKE FWD</b><small>STUDENT APP</small></div>
+    </div>
+    <div class="me">
+      <div class="ini" id="meIni">PS</div>
+      <div><b id="meName">Student</b><small id="meClass"></small><span class="lvl-tag" id="meLvl"></span></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <p id="sideMsg">Finish today's plan to reach the next level faster.</p>
+      <button class="b" id="logout">Sign out</button>
+    </div>
+  </aside>
+  <main class="main">
+    <div class="topbar">
+      <div>
+        <div class="hi" id="greet">Welcome</div>
+        <div class="date" id="dateline"></div>
+      </div>
+      <div class="top-right">
+        <span class="chip flame"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 3-1 4-2 6s0 4 2 4 3-2 2.5-4C16 10 18 12 18 15a6 6 0 1 1-12 0c0-4 4-5 4-8 0-2-2-3 2-5Z"/></svg><span id="chipStreak">0</span> days</span>
+        <span class="chip xp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3L22 9.2l-5 4.7L18.2 21 12 17.5 5.8 21 7 13.9l-5-4.7 7.1-.9Z"/></svg><span id="chipXp">0</span> XP</span>
+      </div>
+    </div>
+    <div id="view"></div>
+  </main>
+</div>
+<script src="/js/api.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
